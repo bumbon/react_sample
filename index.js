@@ -82,7 +82,7 @@ var Comment = React.createClass({
             render: function () {
                 return (
                     <div>
-                        <h3> Sample for DeployCode</h3>
+                        <h3> Sample for DeployCode.</h3>
                         <button onClick={this.add.bind(null, 'Default text')} className="button-info create">Add New</button>
                         <div className="board">
                              {this.state.comments.map(this.eachComment)}
