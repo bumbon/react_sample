@@ -1,7 +1,5 @@
 language: node_js
 node_js:
  - "stable"
-deploy:
-  provider: codedeploy
-  bucket: "S3 Bucket"
-  revision_type: github
+services:
+- postgres
