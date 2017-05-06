@@ -5,5 +5,5 @@ env:
   - NODE_ENV="development"
   - NODE_ENV="production";SESSION_SECRET="la li"
 services:
-- postgres
+- postgresql
 script: echo "like it's cat meow 99" && true
